@@ -1,39 +1,3 @@
-def intro():
-  import time as sec; import os
-  print('Welcome to...')
-  sec.sleep(1)
-  os.system('clear')
-  print('S')
-  sec.sleep(.1)
-  print('u')
-  sec.sleep(.1)
-  print('p')
-  sec.sleep(.1)
-  print('e')
-  sec.sleep(.1)
-  print('r')
-  sec.sleep(.1)
-  print('T')
-  sec.sleep(.1)
-  print('u')
-  sec.sleep(.1)
-  print('r')
-  sec.sleep(.1)
-  print('t')
-  sec.sleep(.1)
-  print('l')
-  sec.sleep(.1)
-  print('e')
-  sec.sleep(.1)
-  print('R')
-  sec.sleep(.1)
-  print('u')
-  sec.sleep(.1)
-  print('s')
-  sec.sleep(.1)
-  print('h')
-  sec.sleep(2)
-  os.system('clear')
 def makeprmpt():
   good = 'blue'
   bad = 'red'
@@ -91,8 +55,3 @@ def makeprmpt():
       t.left(45)
     if prmpt == 'r':
       t.right(45)
-def _main_():
-  intro()
-  while True:
-    makeprmpt()
-_main_()
