@@ -69,10 +69,14 @@ def makeprmpt():
         os.system('clear')
         print('exec.clear;')
       if prmpt == 'restart':
+        print('exec.devcmd(\'restart\')')
         res = True
         break
       if prmpt == 'exitDev':
+        print('exec.devcmd(\'exitdev\')')
         res = False
+        oof = ''
+        usrname = '404 - File not found.'
         break
   while True:
     if res == True:
